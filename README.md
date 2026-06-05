@@ -40,12 +40,14 @@ You will need a C++ compiler installed on your computer (like GCC/MinGW).
 
 ### Steps
 1. Clone this project:
-   ```bashgit clone [https://github.com/karimmesselmi/rock-paper-scissors-game.git](https://github.com/karimmesselmi/rock-paper-scissors-game.git)
+   ```bash
+   git clone [https://github.com/karimmesselmi/rock-paper-scissors-game.git](https://github.com/karimmesselmi/rock-paper-scissors-game.git)
 
 
 2.  Open your terminal and go to the project folder:
 
-```bashcd rock-paper-scissors-game
+```bash
+cd rock-paper-scissors-game
 
 3.  Compile the final version:
 
