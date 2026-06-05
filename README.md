@@ -40,25 +40,22 @@ You will need a C++ compiler installed on your computer (like GCC/MinGW).
 
 ### Steps
 1. Clone this project:
-   ```bash
-   git clone [https://github.com/karimmesselmi/rock-paper-scissors-game.git](https://github.com/karimmesselmi/rock-paper-scissors-game.git)
+   ```bashgit clone [https://github.com/karimmesselmi/rock-paper-scissors-game.git](https://github.com/karimmesselmi/rock-paper-scissors-game.git)
 
 
 2.  Open your terminal and go to the project folder:
 
-```bash
-cd rock-paper-scissors-game
+```bashcd rock-paper-scissors-game
 
 3.  Compile the final version:
 
-```bash
-g++ Rock-Paper-Scissors-FinalSolution.cpp -o RPSGame
+```bashg++ Rock-Paper-Scissors-FinalSolution.cpp -o RPSGame
 
 4.  Run the game:
 
 
 
-   .On Windows:```bash RPSGame
+   .On Windows:```bashRPSGame
 
    .On Linux/Mac: ```bash./RPSGame
 
