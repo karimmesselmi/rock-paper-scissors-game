@@ -47,7 +47,7 @@ You will need a C++ compiler installed on your computer (like GCC/MinGW).
 2.  Open your terminal and go to the project folder:
 
 ```bash
-cd rock-paper-scissors-game
+ git clone [https://github.com/karimmesselmi/rock-paper-scissors-game.git](https://github.com/karimmesselmi/rock-paper-scissors-game.git)
 
 3.  Compile the final version:
 
