@@ -1,85 +1,97 @@
 # Rock-Paper-Scissors Game (C++) 🎮
 
-Welcome to my repository!, this is one of my very first programming projects in C++. I built this classic **Rock-Paper-Scissors** game to practice my coding skills, understand computational logic, and learn how to structure a program step-by-step.
+A console-based Rock-Paper-Scissors game built in C++, where the player competes against the computer over multiple rounds. The game tracks scores, determines a winner per round, and announces the final game winner at the end.
+
+Welcome to my repository! This is one of my very first programming projects in C++, built to practice real coding concepts like **Enums**, **Structures**, and **Functions**.
 
 ---
 
 ## 🎓 Learning and Programming Foundation
-This project was built and developed entirely as part of the practical applications in the "Algorithms and Problem Solving - Level 2 (Course 5)" course on the platform (https://programmingadvices.com) under the supervision and guidance of the esteemed engineer Mohammed Abu Hadhoud (https://www.linkedin.com/in/abuhadhoud) 👑. This course has contributed to my solid foundation in logical thinking and writing clean code.
+
+This project was built as part of the practical applications in the **"Algorithms and Problem Solving - Level 2 (Course 5)"** course on [programmingadvices.com](https://programmingadvices.com), under the supervision of engineer **Mohammed Abu Hadhoud** 👑 ([LinkedIn](https://www.linkedin.com/in/abuhadhoud)).
+
+This course gave me a solid foundation in logical thinking, problem decomposition, and writing clean, structured code.
+
+---
+
+## 🎮 How the Game Works
+
+- The player chooses: **Stone**, **Paper**, or **Scissors**
+- The computer picks randomly
+- The game is played over **3 rounds**
+- Each round has a winner (or a draw)
+- At the end, the overall game winner is announced
+- The player can choose to play again
 
 ---
 
 ## 📈 My Progress: First Attempt vs. Final Solution
 
-To see how much I am improving, I decided to keep both my first attempt and my final cleaned version in this repository. 
+I kept both versions in this repository to track my own growth as a developer.
 
-1. **`Rock-Paper-Scissors-FirstAttempt.cpp` (My First Try)**
-   * This was my initial approach to solving the problem.
-   * It works but it's not entirely correct.
+### 1. `Rock-Paper-Scissors-FirstAttempt.cpp` — My First Try
+- My initial approach to solving the problem
+- Heavy use of repetitive `if-else` blocks and basic variables
+- Helped me understand the core logic of the game
 
-2. **`Rock-Paper-Scissors-FinalSolution.cpp` (The Cleaned Version)**
-   * I rebuilt the game from scratch with the help of my coach.
-   * I used **Enums (`enum`)** to handle game choices and winners instead of using raw numbers.
-   * I used **Structures (`struct`)** to group round information and game results together.
-   * I broke down the code into small **Functions**, making it much easier to read and maintain.
+### 2. `Rock-Paper-Scissors-FinalSolution.cpp` — The Improved Version
+- Rebuilt from scratch with a cleaner structure
+- Used **Enums** (`enum`) for game choices and winners
+- Used **Structures** (`struct`) to group round and game data
+- Broke the code into small, focused **Functions**
+- Much easier to read, maintain, and extend
 
 ---
 
 ## 📂 Project Files
-* 📄 `Rock-Paper-Scissors-FirstAttempt.cpp`: My first organic attempt.
-* 📄 `Rock-Paper-Scissors-FinalSolution.cpp`: The improved and structured version.
-* 📄 `README.md`: This file, explaining my project.
+
+| File | Description |
+|------|-------------|
+| `Rock-Paper-Scissors-FirstAttempt.cpp` | My first organic attempt |
+| `Rock-Paper-Scissors-FinalSolution.cpp` | The improved and structured version |
+| `README.md` | This file, explaining my project |
 
 ---
 
-## 🛠️ How to Run the Game
+## 🛠 How to Run the Game
 
 ### Prerequisites
-You will need a C++ compiler installed on your computer (like GCC/MinGW).
+You need a C++ compiler installed (like **GCC** on Linux/Mac or **MinGW** on Windows).
 
 ### Steps
+
 1. Clone this project:
-   ```bash
-   git clone [https://github.com/karimmesselmi/rock-paper-scissors-game.git](https://github.com/karimmesselmi/rock-paper-scissors-game.git)
-   ```
-   
-2.  Open your terminal and go to the project folder:
-   ```bash
+```bash
+git clone https://github.com/karimmesselmi/rock-paper-scissors-game.git
+```
+
+2. Go to the project folder:
+```bash
 cd rock-paper-scissors-game
- ```
+```
 
-
-3.  Compile the final version:
-   ```bash
+3. Compile the final version:
+```bash
 g++ Rock-Paper-Scissors-FinalSolution.cpp -o RPSGame
 ```
 
+4. Run the game:
 
-4.  Run the game:
-
-   .OnWindows:
-   ```bash
-   RPSGame
+On Windows:
+```bash
+RPSGame
+```
+On Linux/Mac:
+```bash
+./RPSGame
 ```
 
+---
 
-   .On Linux/Mac:
-   ```bash
-   ./RPSGame
-```
+## 👤 About Me
 
+**Karim Messelmi** — Computer Science student, currently building my foundation in C++ and algorithmic thinking.
 
+🔗 [LinkedIn](https://www.linkedin.com/in/karim-messelmi-34a02a379)
 
-
-
-
-👤 About Me
-Name: Karim Messelmi
-
-LinkedIn: https://www.linkedin.com/in/karim-messelmi-34a02a379
-
-
-
-
-
-"I am practicing every day to improve my logic and learn new standards. This is just the beginning!" 🚀
+> *"Every project I build teaches me something new. This is just the beginning."* 🚀
