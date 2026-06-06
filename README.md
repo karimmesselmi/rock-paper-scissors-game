@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors Game (C++) 🎮
 
-Welcome to my repository! I am a Computer Science student, and this is one of my very first programming projects in C++. I built this classic **Rock-Paper-Scissors** game to practice my coding skills, understand computational logic, and learn how to structure a program step-by-step.
+Welcome to my repository!, this is one of my very first programming projects in C++. I built this classic **Rock-Paper-Scissors** game to practice my coding skills, understand computational logic, and learn how to structure a program step-by-step.
 
 ---
 
@@ -11,15 +11,14 @@ This project was built and developed entirely as part of the practical applicati
 
 ## 📈 My Progress: First Attempt vs. Final Solution
 
-To see how much I am improving, I decided to keep both my first attempt and my final cleaned version in this repository. It’s a great way for me to track my growth!
+To see how much I am improving, I decided to keep both my first attempt and my final cleaned version in this repository. 
 
 1. **`Rock-Paper-Scissors-FirstAttempt.cpp` (My First Try)**
    * This was my initial approach to solving the problem.
-   * It works perfectly, but it relies on a lot of repetitive `if-else` blocks and basic variables. 
-   * It helped me fully understand the core logic of the game.
+   * It works but it's not entirely correct.
 
 2. **`Rock-Paper-Scissors-FinalSolution.cpp` (The Cleaned Version)**
-   * After learning better programming practices, I rebuilt the game from scratch.
+   * I rebuilt the game from scratch with the help of my coach.
    * I used **Enums (`enum`)** to handle game choices and winners instead of using raw numbers.
    * I used **Structures (`struct`)** to group round information and game results together.
    * I broke down the code into small **Functions**, making it much easier to read and maintain.
