@@ -2,7 +2,7 @@
 
 A console-based Rock-Paper-Scissors game built in C++, where the player competes against the computer over multiple rounds. The game tracks scores, determines a winner per round, and announces the final game winner at the end.
 
-Welcome to my repository! This is one of my very first programming projects in C++, built to practice real coding concepts like **Enums**, **Structures**, and **Functions**.
+This is one of my very first programming projects in C++, built to practice real coding concepts like **Enums**, **Structures**, and **Functions**.
 
 ---
 
@@ -18,25 +18,20 @@ This course gave me a solid foundation in logical thinking, problem decompositio
 
 - The player chooses: **Stone**, **Paper**, or **Scissors**
 - The computer picks randomly
-- The game is played over ** rounds**
+- The game is played over **3 rounds**
 - Each round has a winner (or a draw)
 - At the end, the overall game winner is announced
 - The player can choose to play again
 
 ---
 
-## 📈 My Progress: First Attempt vs. Final Solution
+## 📈 About This Version
 
-I kept both versions in this repository to track my own growth as a developer.
+Before watching the solution, I wrote a first version independently — it helped me understand where my logic was lacking and what I still needed to learn. This file is the final cleaned version, rebuilt from scratch after going through the course material properly.
 
-### 1. `Rock-Paper-Scissors-FirstAttempt.cpp` — My First Try
-- My initial approach to solving the problem and It didn't work completely
-- Heavy use of repetitive `if-else` blocks and basic variables
-
-### 2. `Rock-Paper-Scissors-FinalSolution.cpp` — The Improved Version
-- It was rebuilt from scratch with a clearer structure with the help of my teacher.
-- Used **Enums** (`enum`) for game choices and winners
-- Used **Structures** (`struct`) to group round and game data
+### What changed in the final version:
+- Used **Enums** (`enum`) for game choices and winners instead of raw numbers
+- Used **Structures** (`struct`) to group round and game data together
 - Broke the code into small, focused **Functions**
 - Much easier to read, maintain, and extend
 
@@ -46,9 +41,8 @@ I kept both versions in this repository to track my own growth as a developer.
 
 | File | Description |
 |------|-------------|
-| `Rock-Paper-Scissors-FirstAttempt.cpp` | My first organic attempt |
 | `Rock-Paper-Scissors-FinalSolution.cpp` | The improved and structured version |
-| `README.md` | This file, explaining my project |
+| `README.md` | This file, explaining the project |
 
 ---
 
@@ -89,7 +83,7 @@ On Linux/Mac:
 
 ## 👤 About Me
 
-**Karim Messelmi** — Computer Science student, currently building my foundation in C++ and algorithmic thinking.
+**Karim Messelmi** — Computer Science student, building my foundation one project at a time.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/karim-messelmi-34a02a379)
 
