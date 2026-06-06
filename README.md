@@ -18,7 +18,7 @@ This course gave me a solid foundation in logical thinking, problem decompositio
 
 - The player chooses: **Stone**, **Paper**, or **Scissors**
 - The computer picks randomly
-- The game is played over **3 rounds**
+- The game is played over ** rounds**
 - Each round has a winner (or a draw)
 - At the end, the overall game winner is announced
 - The player can choose to play again
