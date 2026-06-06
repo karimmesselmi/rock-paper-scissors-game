@@ -51,7 +51,7 @@ cd rock-paper-scissors-game
 
 
 3.  Compile the final version:
-```bash
+```
 bash g++ Rock-Paper-Scissors-FinalSolution.cpp -o RPSGame
 ```
 
