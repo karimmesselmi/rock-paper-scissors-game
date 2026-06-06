@@ -30,12 +30,11 @@ This course gave me a solid foundation in logical thinking, problem decompositio
 I kept both versions in this repository to track my own growth as a developer.
 
 ### 1. `Rock-Paper-Scissors-FirstAttempt.cpp` — My First Try
-- My initial approach to solving the problem
+- My initial approach to solving the problem and It didn't work completely
 - Heavy use of repetitive `if-else` blocks and basic variables
-- Helped me understand the core logic of the game
 
 ### 2. `Rock-Paper-Scissors-FinalSolution.cpp` — The Improved Version
-- Rebuilt from scratch with a cleaner structure
+- It was rebuilt from scratch with a clearer structure with the help of my teacher.
 - Used **Enums** (`enum`) for game choices and winners
 - Used **Structures** (`struct`) to group round and game data
 - Broke the code into small, focused **Functions**
