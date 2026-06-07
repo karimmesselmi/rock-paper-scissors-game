@@ -1,8 +1,8 @@
 # Rock-Paper-Scissors Game (C++) 🎮
 
-A console-based Rock-Paper-Scissors game built in C++, where the player competes against the computer over multiple rounds. The game tracks scores, determines a winner per round, and announces the final game winner at the end.
+A console-based Rock-Paper-Scissors game built in C++, where the player competes against the computer over multiple rounds. The game tracks scores per round, changes the screen color based on the result, and announces the final winner at the end.
 
-This is one of my very first programming projects in C++, built to practice real coding concepts like **Enums**, **Structures**, and **Functions**.
+This is one of my very first programming projects in C++, built to apply real coding concepts in a fun and practical way.
 
 ---
 
@@ -18,22 +18,24 @@ This course gave me a solid foundation in logical thinking, problem decompositio
 
 - The player chooses: **Stone**, **Paper**, or **Scissors**
 - The computer picks randomly
-- The game is played over **3 rounds**
-- Each round has a winner (or a draw)
-- At the end, the overall game winner is announced
+- The player chooses how many rounds to play **(1 to 10)**
+- Each round displays the result and changes the screen color:
+  - 🟢 **Green** → Player wins
+  - 🔴 **Red** → Computer wins
+  - 🟡 **Yellow** → Draw
+- At the end, full game results are displayed with the final winner
 - The player can choose to play again
 
 ---
 
-## 📈 About This Version
+## 🧠 Programming Concepts Applied
 
-Before watching the solution, I wrote a first version independently — it helped me understand where my logic was lacking and what I still needed to learn. This file is the final cleaned version, rebuilt from scratch after going through the course material properly.
-
-### What changed in the final version:
-- Used **Enums** (`enum`) for game choices and winners instead of raw numbers
-- Used **Structures** (`struct`) to group round and game data together
-- Broke the code into small, focused **Functions**
-- Much easier to read, maintain, and extend
+- **Enums** (`enum`) — to represent game choices and round/game winners cleanly
+- **Structures** (`struct`) — to group round data and game results together
+- **Functions** — each task is handled by a small, focused, independent function
+- **Switch statements** — to determine the round winner based on game rules
+- **Random number generation** — for the computer's choice
+- **Screen color control** — using `system("color")` to give visual feedback
 
 ---
 
@@ -41,7 +43,7 @@ Before watching the solution, I wrote a first version independently — it helpe
 
 | File | Description |
 |------|-------------|
-| `Rock-Paper-Scissors-FinalSolution.cpp` | The improved and structured version |
+| `Rock-Paper-Scissors-FinalSolution.cpp` | The complete and structured source code |
 | `README.md` | This file, explaining the project |
 
 ---
@@ -63,7 +65,7 @@ git clone https://github.com/karimmesselmi/rock-paper-scissors-game.git
 cd rock-paper-scissors-game
 ```
 
-3. Compile the final version:
+3. Compile the code:
 ```bash
 g++ Rock-Paper-Scissors-FinalSolution.cpp -o RPSGame
 ```
